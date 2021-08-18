@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Netflix Sans';
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+body {
+  background: #141414;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+/*******Image formatation******/
+.logo-netflix {
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.icon-search,
+.icon-notification {
+  width: 1.6rem;
+  margin-right: 1.5rem;
+}
+
+.profile {
+  width: 2.2rem;
+  border-radius: 5px;
+}
+
+.icon-play {
+  width: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.fa-play {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.btn-more img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+/*******Top navegation*********/
+header {
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0, 0.9) 0%,
+    rgb(0, 0, 0, 0) 90%
+  );
+  display: flex;
+  position: absolute;
+  z-index: 2;
+}
+.top-navegation {
+  height: 4.8rem;
+  margin: 0 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.navegation ul li {
+  display: inline;
+  margin-left: 1rem;
+}
+
+.navegation ul li a {
+  font-family: 'Netflix Sans';
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.icons {
+  width: 11rem;
+  margin-left: 72.1rem;
+  display: flex;
+  align-items: center;
+}
+
+/*******Main serie**********/
+.background-main-serie {
+  background: url(../img/mainSeries/lucifer.jpg);
+
+  background-size: cover;
+  height: 60rem;
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-serie {
+  margin: 15rem 4rem;
+}
+
+.sinops {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 35rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 2rem;
+  width: 35rem;
+  display: flex;
+}
+
+.btn-white {
+  width: 12rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.btn-more {
+  width: 18rem;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: rgba(134, 125, 125, 0.4);
+  border-radius: 4px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/*************Movies**************************/
+.general-movies {
+  margin-top: -4.5rem;
+}
+
+.owl-carousel {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+}
+.item img {
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+h3 {
+  color: #ffffff;
+  margin-left: 4rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
